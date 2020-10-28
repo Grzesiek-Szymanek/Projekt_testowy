@@ -1,4 +1,5 @@
-<?php echo("<h1> GRZEGORZ SZYMANEK Nr28</h1>");
+<?php 
+echo("<h1> GRZEGORZ SZYMANEK Nr28</h1>");
 echo("<h3>ZADANIE 1</h3>");
     $conn= new mysqli("127.0.0.1","root","","Nauka1");
     $result=$conn->query('SELECT * FROM pracownicy');
